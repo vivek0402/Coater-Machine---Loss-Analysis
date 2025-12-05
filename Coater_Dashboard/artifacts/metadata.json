@@ -1,0 +1,47 @@
+{
+  "features": [
+    "GSM",
+    "Deckle_Eff"
+  ],
+  "targets": [
+    "PACKING_WEIGHT",
+    "TOP_LAYER_LOSS",
+    "CORE_END_LOSS",
+    "SPLICE_LOSS"
+  ],
+  "metrics_cv": {
+    "PACKING_WEIGHT": {
+      "r2": 0.9928642857142858,
+      "mae": 0.007592592592592562
+    },
+    "TOP_LAYER_LOSS": {
+      "r2": 0.9591328412053698,
+      "mae": 0.04592839453176215
+    },
+    "CORE_END_LOSS": {
+      "r2": 0.3036578246196079,
+      "mae": 0.5567197641662329
+    },
+    "SPLICE_LOSS": {
+      "r2": 0.9040931820833474,
+      "mae": 0.20496547327668516
+    },
+    "Total_Loss": {
+      "r2": 0.8631599348215265,
+      "mae": 0.599421660021622
+    }
+  },
+  "saved_models": {
+    "PACKING_WEIGHT": "E:\\ML_Project\\Coater_Dashboard\\artifacts\\models\\loss_model_PACKING_WEIGHT.joblib",
+    "TOP_LAYER_LOSS": "E:\\ML_Project\\Coater_Dashboard\\artifacts\\models\\loss_model_TOP_LAYER_LOSS.joblib",
+    "CORE_END_LOSS": "E:\\ML_Project\\Coater_Dashboard\\artifacts\\models\\loss_model_CORE_END_LOSS.joblib",
+    "SPLICE_LOSS": "E:\\ML_Project\\Coater_Dashboard\\artifacts\\models\\loss_model_SPLICE_LOSS.joblib"
+  },
+  "poly_degree": 2,
+  "alphas": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ]
+}

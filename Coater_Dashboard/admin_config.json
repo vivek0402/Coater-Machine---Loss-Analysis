@@ -1,0 +1,17 @@
+{
+  "MYSQL_HOST": "mysql-host.example.com",
+  "MYSQL_PORT": 3306,
+  "MYSQL_USER": "readonly_user",
+  "MYSQL_PASSWORD": "readonly_password",
+  "MYSQL_DATABASE": "plant_production",
+  "PROD_TABLE": "daily_production",
+  "COLUMN_MAP": {
+    "reel_id": "Reel_ID",
+    "gsm": "GSM",
+    "deckle": "Deckle",
+    "diameter": "Diameter",
+    "base_weight": "Base_Weight_kg",
+    "production_date": "Production_Date"
+  },
+  "DEFAULT_BUNDLE": "E:\\ML_Project\\Coater_Dashboard\\combined_loss_model.joblib"
+}
