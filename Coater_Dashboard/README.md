@@ -43,7 +43,7 @@ Coater_Dashboard/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/coater-dashboard.git
+   git clone https://github.com/vivek0402/coater-dashboard.git
    cd Coater_Dashboard
    ```
 
@@ -95,3 +95,4 @@ To update the machine learning models with new data:
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
